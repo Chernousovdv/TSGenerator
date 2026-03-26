@@ -1,0 +1,43 @@
+{
+  "timestamp": "20260318_151837",
+  "component_type": "kernel_synth",
+  "parameters": {
+    "type": "kernel_synth",
+    "kernel_type": "RBF",
+    "lengthscale": 0.3,
+    "variance": 1.5,
+    "period": 1.0,
+    "alpha": 1.0,
+    "mean_a": 0.0,
+    "mean_b": 0.0,
+    "mean_c": 0.0,
+    "mean_d": 0.0
+  },
+  "test_results": {
+    "series_shape": [
+      100
+    ],
+    "mean_value": 0.2910538613796234,
+    "std_value": 0.19309894740581512,
+    "min_value": -2.1072299480438232,
+    "max_value": 2.7079575061798096,
+    "normality_test_p_value": 0.557593584060669,
+    "variance_stability_index": 0.7845537066459656,
+    "num_samples": 10
+  },
+  "visualization_path": "./test_reports/kernel_synth_20260318_151837_visualization.png",
+  "interpretation": {
+    "normality": {
+      "p_value": 0.557593584060669,
+      "interpretation": "Нормальное"
+    },
+    "stability": {
+      "index": 0.7845537066459656,
+      "interpretation": "Сильная нестационарность"
+    },
+    "amplitude": {
+      "std": 0.19309894740581512,
+      "interpretation": "Низкая"
+    }
+  }
+}

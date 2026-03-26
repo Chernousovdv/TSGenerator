@@ -1,0 +1,42 @@
+{
+  "timestamp": "20260318_151838",
+  "component_type": "ets",
+  "parameters": {
+    "type": "ets",
+    "model_type": "AAN",
+    "alpha": 0.3,
+    "beta": 0.1,
+    "gamma": 0.0,
+    "seasonality_period": 0,
+    "initial_level": 1.0,
+    "initial_trend": 0.05,
+    "initial_seasonal": []
+  },
+  "test_results": {
+    "series_shape": [
+      100
+    ],
+    "mean_value": 6.792112350463867,
+    "std_value": 3.929535388946533,
+    "min_value": -24.799766540527344,
+    "max_value": 40.62570571899414,
+    "normality_test_p_value": 0.4817516803741455,
+    "variance_stability_index": 0.575809121131897,
+    "num_samples": 10
+  },
+  "visualization_path": "./test_reports/ets_20260318_151838_visualization.png",
+  "interpretation": {
+    "normality": {
+      "p_value": 0.4817516803741455,
+      "interpretation": "Нормальное"
+    },
+    "stability": {
+      "index": 0.575809121131897,
+      "interpretation": "Сильная нестационарность"
+    },
+    "amplitude": {
+      "std": 3.929535388946533,
+      "interpretation": "Высокая"
+    }
+  }
+}

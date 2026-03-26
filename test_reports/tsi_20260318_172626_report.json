@@ -1,0 +1,50 @@
+{
+  "timestamp": "20260318_172626",
+  "component_type": "tsi",
+  "parameters": {
+    "type": "tsi",
+    "frequencies": [
+      2.0,
+      5.0
+    ],
+    "amplitudes": [
+      1.0,
+      0.5
+    ],
+    "phases": [
+      0.0,
+      1.57
+    ],
+    "decays": [
+      0.1,
+      0.2
+    ]
+  },
+  "test_results": {
+    "series_shape": [
+      100
+    ],
+    "mean_value": 0.012634728103876114,
+    "std_value": 0.7414382100105286,
+    "min_value": -1.3370616436004639,
+    "max_value": 1.421302318572998,
+    "normality_test_p_value": 0.6550249457359314,
+    "variance_stability_index": 0.495450884103775,
+    "num_samples": 10
+  },
+  "visualization_path": "./test_reports/tsi_20260318_172626_visualization.png",
+  "interpretation": {
+    "normality": {
+      "p_value": 0.6550249457359314,
+      "interpretation": "Нормальное"
+    },
+    "stability": {
+      "index": 0.495450884103775,
+      "interpretation": "Сильная нестационарность"
+    },
+    "amplitude": {
+      "std": 0.7414382100105286,
+      "interpretation": "Средняя"
+    }
+  }
+}
